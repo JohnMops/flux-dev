@@ -2,7 +2,7 @@ apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
   name: frontend-ingress
-  namespace: app
+  namespace: app-dev
 spec:
   rules:
     - host: www.johnmops.com # get a free domain and use it
